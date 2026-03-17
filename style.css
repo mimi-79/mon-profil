@@ -1,0 +1,106 @@
+/* Palette de couleurs */
+:root {
+  --bleu-principal: #003366;
+  --bleu-secondaire: #0066cc;
+  --gris-clair: #f5f7fa;
+  --blanc: #ffffff;
+  --texte-principal: #333333;
+  --vere-principal:  #29a249;
+}
+
+/* Réglages globaux */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--gris-clair);
+  color: var(--texte-principal);
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('images/image1.jpg');
+  color: var(--blanc);
+  padding:1em 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2em;
+}
+
+nav a {
+  color: var(vert);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--bleu-secondaire);
+  background-color: var(--blanc);
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 3em 1em;
+  max-width: 900px;
+  margin: auto;
+  background-color: var(--blanc);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
+}
+
+h1, h2, h3 {
+  color: var(--bleu-principal);
+}
+
+h1 {
+  text-align: center;
+  text-decoration:underline;
+  color:mediumorchid;
+}
+
+h2 {text-decoration: underline;}
+
+strong
+{ 
+  color:var(--vere-principal)
+}
+
+img {
+  max-width:  400px;
+  height: 300px;
+  border-radius:  10px;
+  display: block;
+  margin: 1.5em auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+a {
+  color: var(--blanc);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: var(--bleu-principal);
+  color: var(--blanc);
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9em;
+}
+span
+{
+color: #080101;
+}
